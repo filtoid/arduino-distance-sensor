@@ -28,6 +28,13 @@ void setup(){
   pinMode(GREEN1, OUTPUT);
   pinMode(GREEN2, OUTPUT);
   pinMode(GREEN3, OUTPUT);
+
+  // Make sure all pins are low to start
+  digitalWrite(RED1, LOW);
+  digitalWrite(RED2, LOW);
+  digitalWrite(GREEN1, LOW);
+  digitalWrite(GREEN2, LOW);
+  digitalWrite(GREEN3, LOW);    
 }
 
 void loop(){
